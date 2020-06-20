@@ -1,0 +1,38 @@
+body{
+    background-color: #000000;
+}
+#main{
+    background-color: #2F4F4F;
+    margin: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    background-color: #808080;
+    width: 30%;
+    height: 90%;
+    margin: 4%;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: 4px 4px 5px 5px;
+    padding: 5px;
+}
+img{
+    width: 70%;
+    height: 50%;
+    border-radius: 15%;
+    margin: 4%;
+}
+.card:hover{
+    color:#A9A9A9;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+p,a{
+    font-size: 15px;
+}
